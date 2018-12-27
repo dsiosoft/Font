@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+<style type="text/css">
+@font-face {
+  font-family: 'FuturaPT-Medium';
+  src: url('Fonts/FuturaPT-Medium.eot?#iefix') format('embedded-opentype'),  url('Fonts/FuturaPT-Medium.otf')  format('opentype'),
+	     url('Fonts/FuturaPT-Medium.woff') format('woff'), url('Fonts/FuturaPT-Medium.ttf')  format('truetype'), url('Fonts/FuturaPT-Medium.svg#FuturaPT-Medium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Blippo';
+  src: url('Fonts/Blippo.eot?#iefix') format('embedded-opentype'),url('Fonts/Blippo.ttf')  format('truetype'), url('Fonts/Blippo.svg#Blippo') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'athena_of_the_oceanregular';
+    src: url('Fonts/athena_of_the_ocean-webfont.woff2') format('woff2'),
+         url('Fonts/athena_of_the_ocean-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'AlekRegular';
+  src: url('Fonts/AlekRegular.eot?#iefix') format('embedded-opentype'),  url('Fonts/AlekRegular.otf')  format('opentype'),
+	     url('Fonts/AlekRegular.woff') format('woff'), url('Fonts/AlekRegular.ttf')  format('truetype'), url('Fonts/AlekRegular.svg#AlekRegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1, p{ font-family: 'Blippo';font-weight:400; letter-spacing:1px;}
+h2{ font-family: 'athena_of_the_oceanregular';font-weight:400; letter-spacing:1px;}
+h3{ font-family: 'AlekRegular';font-weight:400; letter-spacing:1px;}
+h4{font-family: 'athena_of_the_oceanregular';font-weight:400; letter-spacing:1px;}
+h5{ font-family: 'FuturaPT-Medium'; font-weight:400; letter-spacing:1px;}
+</style>
+</head>
+<body>
+<h1 style="font-size: 3vw;">Responsive Text</h1>
+<h2 style="font-size: 2.5vw;">Responsive Text</h2>
+<h3 style="font-size: 2vw;">Responsive Text</h3>
+<h4 style="font-size: 1.8vw;">Responsive Text</h4>
+<h5 style="font-size: 1.4vw;">Responsive Text</h5>
+
+
+<p style="font-size: 1.4vw;">Use the "vw" unit when sizing the text. 10vw will set the size to 10% of the viewport width.</p>
+
+
+</body>
+</html>
